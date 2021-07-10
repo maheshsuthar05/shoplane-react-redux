@@ -1,0 +1,7 @@
+.slider-wrapper{
+    padding: 0 50px;
+}
+.slider-item{
+    box-sizing: border-box;
+    width: 100%;
+}

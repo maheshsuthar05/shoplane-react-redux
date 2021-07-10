@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.hamburger-menu{
+    font-size: 24px;
+    display: none;
+}
+
+.topbar {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%;
+}
+
+.brand-logo{
+    font-size: 36px;
+    font-weight: 400;
+    margin-right: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.brand-logo span{
+    font-weight: 800;
+}
+
+.topbar-menu{
+    display: flex;
+    align-items: center;
+}
+.topbar-menu-item{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    margin-left: 32px;
+    font-weight: 600;
+}
+
+.topbar-search{
+    width:30%;
+    position: relative;
+}
+
+.topbar-search i{
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+}
+
+.topbar-search input{
+    width: 100%;
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.topbar-social{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.topbar-profile{
+    display: flex;
+    align-items: center;
+}
+
+.cart-wrapper{
+    position: relative;
+    margin-right: 26px;
+}
+.cart-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.cart-wrapper i{
+    font-size: 18px;
+}
+
+.cart-counter{
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+    background-color: #009688;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+
+/* media queries for top bar */
+@media screen and (max-width: 991px){
+    .topbar-menu-item{
+        display: none;
+    }
+    .topbar-search{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.checkout-container{
+    margin-top: 100px;
+    padding: 0 8%;
+}
+.checkout-heading{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.total-items{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.checkout-wrapper{
+    display: flex;
+}
+
+.cart-item-wrapper{
+    width:60%;
+    margin-right: 5%;
+}
+
+.final-price-wrapper{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.cart-product-card{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 600px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.card-details{
+    display: flex;
+}
+
+.cart-product-card i{
+    display: flex;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cart-card-thumbnail{
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+
+.cart-card-name{
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.final-price-wrapper h3{
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 26px;
+}
+
+.final-price-wrapper p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.final-price-wrapper span{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.final-price-wrapper button{
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    margin-top: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 50%;
+}
+.cart-card-count, .cart-card-amount{
+    margin: 10px 0;
+}
+
+@media screen and (max-width:767px){
+    .checkout-wrapper{
+        flex-direction: column;
+    }
+    .cart-item-wrapper{
+        width: 100%;
+    }
+    .final-price-wrapper{
+        width: 100%;
+    }
+    .final-price-wrapper button{
+        width: 60%;
+    }
+}
+
