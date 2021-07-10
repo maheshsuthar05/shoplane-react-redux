@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/shoplane-react-redux/static/css/main.d21b0e4b.chunk.css",
+    "main.js": "/shoplane-react-redux/static/js/main.ab48f185.chunk.js",
+    "main.js.map": "/shoplane-react-redux/static/js/main.ab48f185.chunk.js.map",
+    "runtime-main.js": "/shoplane-react-redux/static/js/runtime-main.967646cc.js",
+    "runtime-main.js.map": "/shoplane-react-redux/static/js/runtime-main.967646cc.js.map",
+    "static/css/2.da0803f7.chunk.css": "/shoplane-react-redux/static/css/2.da0803f7.chunk.css",
+    "static/js/2.f3a0837d.chunk.js": "/shoplane-react-redux/static/js/2.f3a0837d.chunk.js",
+    "static/js/2.f3a0837d.chunk.js.map": "/shoplane-react-redux/static/js/2.f3a0837d.chunk.js.map",
+    "static/js/3.8905e3dc.chunk.js": "/shoplane-react-redux/static/js/3.8905e3dc.chunk.js",
+    "static/js/3.8905e3dc.chunk.js.map": "/shoplane-react-redux/static/js/3.8905e3dc.chunk.js.map",
+    "index.html": "/shoplane-react-redux/index.html",
+    "static/css/2.da0803f7.chunk.css.map": "/shoplane-react-redux/static/css/2.da0803f7.chunk.css.map",
+    "static/css/main.d21b0e4b.chunk.css.map": "/shoplane-react-redux/static/css/main.d21b0e4b.chunk.css.map",
+    "static/js/2.f3a0837d.chunk.js.LICENSE.txt": "/shoplane-react-redux/static/js/2.f3a0837d.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/shoplane-react-redux/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/profile.8f573c96.jpg": "/shoplane-react-redux/static/media/profile.8f573c96.jpg",
+    "static/media/slick-theme.css": "/shoplane-react-redux/static/media/slick.c94f7671.ttf",
+    "static/media/slide1.9007d84c.png": "/shoplane-react-redux/static/media/slide1.9007d84c.png",
+    "static/media/slide2.88dc38c8.png": "/shoplane-react-redux/static/media/slide2.88dc38c8.png",
+    "static/media/slide3.d28aba27.png": "/shoplane-react-redux/static/media/slide3.d28aba27.png",
+    "static/media/slide4.c2ca730c.png": "/shoplane-react-redux/static/media/slide4.c2ca730c.png",
+    "static/media/spinner.51fb4d16.gif": "/shoplane-react-redux/static/media/spinner.51fb4d16.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.967646cc.js",
+    "static/css/2.da0803f7.chunk.css",
+    "static/js/2.f3a0837d.chunk.js",
+    "static/css/main.d21b0e4b.chunk.css",
+    "static/js/main.ab48f185.chunk.js"
+  ]
+}
